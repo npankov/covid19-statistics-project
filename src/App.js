@@ -1,7 +1,7 @@
 import React from 'react';
 import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
-import { getData } from './api';
+import { getData, getCountries } from './api';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,8 +13,13 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    const receiveData = await getData();
-    this.setState({ data: receiveData });
+    const receivedData = await getData();
+    this.setState({ data: receivedData });
+  }
+
+  handleCountrychange = async (country) => {
+    const receivedData = await getData(country);
+    this.setState({ data: receivedData, country });
   }
 
   render() {
@@ -22,7 +27,8 @@ class App extends React.Component {
     return (
       <div className={styles.container}>
         <Cards data={data} />
-        <Chart />
+        <CountryPicker handleCountryChange={this.handleCountrychange}/>
+        <Chart data={data} country={country}/>
       </div>
     );
   }

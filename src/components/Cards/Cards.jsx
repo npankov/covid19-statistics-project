@@ -13,7 +13,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
       <Grid container spacing={3} justify="center">
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.confirmed)}>
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>Infecté</Typography>
+            <Typography color="textSecondary" gutterBottom>Confirmés</Typography>
             <Typography variant="h5" component="h2">
               <CountUp
                 start={0}
@@ -27,7 +27,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         </Grid>
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recovered)}>
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>Guéri</Typography>
+            <Typography color="textSecondary" gutterBottom>Guérisons</Typography>
             <Typography variant="h5" component="h2">
               <CountUp
                 start={0}
