@@ -2,5 +2,11 @@
   margin: 10px;
   display: flex;
   justify-content: center;
-  width: 75%;
+  width: 85%;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 110%;
+  }
 }

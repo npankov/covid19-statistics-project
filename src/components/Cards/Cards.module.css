@@ -3,7 +3,7 @@
 }
 
 .card {
-  margin: 10px 2% !important;
+  margin: 2% !important;
 }
 
 .confirmed {
@@ -16,4 +16,10 @@
 
 .deaths {
   border-bottom: 12px solid #574432;
+}
+
+@media (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
 }

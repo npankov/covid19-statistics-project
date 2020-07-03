@@ -25,6 +25,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary">Dernière mise à jour: {new Date(lastUpdate).toLocaleString()}</Typography>
           </CardContent>
         </Grid>
+
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recovered)}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>Guérisons</Typography>
@@ -39,6 +40,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary">Dernière mise à jour: {new Date(lastUpdate).toLocaleString()}</Typography>
           </CardContent>
         </Grid>
+
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.deaths)}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>Décès</Typography>
