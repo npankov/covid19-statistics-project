@@ -1,7 +1,7 @@
 import React from 'react';
 import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
-import { getData, getCountries } from './api';
+import { getData } from './api';
 
 class App extends React.Component {
   constructor(props) {
