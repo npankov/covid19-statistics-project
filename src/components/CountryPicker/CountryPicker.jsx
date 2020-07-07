@@ -8,7 +8,8 @@ const CountryPicker = ({ handleCountryChange }) => {
 
   useEffect(() => {
     const receivedCountries = async () => {
-      setCountries(await getCountries());
+      const allCountries = await getCountries();
+      setCountries(allCountries);
     };
 
     receivedCountries();
