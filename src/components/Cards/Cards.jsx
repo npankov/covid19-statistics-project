@@ -16,7 +16,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={styles.confirmed}
           cardTitle="Confirmés"
           value={confirmed.value}
-          cardDiscription="Nombre de cas actifs de COVID-19"
+          cardDiscription="Nombre de cas confirmé de COVID-19"
           lastUpdate={lastUpdate}
         />
 
