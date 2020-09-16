@@ -49,7 +49,6 @@ export default function ElevateAppBar() {
           </Toolbar>
         </AppBar>
       </ElevationScroll>
-      <Toolbar />
     </>
   );
 }
