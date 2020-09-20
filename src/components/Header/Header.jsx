@@ -38,7 +38,7 @@ export default function ElevateAppBar() {
               component="h1"
               variant="h1"
             >
-              Covid-19 Statistics
+              Covid-19 Statistic
             </Typography>
             <IconButton
               className={classes.rightToolbar}
