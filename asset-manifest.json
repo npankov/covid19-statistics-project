@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/covid19-statistics-project/static/css/main.55a7d57b.chunk.css",
-    "main.js": "/covid19-statistics-project/static/js/main.cc8276e9.chunk.js",
-    "main.js.map": "/covid19-statistics-project/static/js/main.cc8276e9.chunk.js.map",
-    "runtime-main.js": "/covid19-statistics-project/static/js/runtime-main.9a73e5d3.js",
-    "runtime-main.js.map": "/covid19-statistics-project/static/js/runtime-main.9a73e5d3.js.map",
-    "static/js/2.d2e0528c.chunk.js": "/covid19-statistics-project/static/js/2.d2e0528c.chunk.js",
-    "static/js/2.d2e0528c.chunk.js.map": "/covid19-statistics-project/static/js/2.d2e0528c.chunk.js.map",
-    "index.html": "/covid19-statistics-project/index.html",
-    "precache-manifest.6586de2d48089057f379d533e7db9aa0.js": "/covid19-statistics-project/precache-manifest.6586de2d48089057f379d533e7db9aa0.js",
-    "service-worker.js": "/covid19-statistics-project/service-worker.js",
-    "static/css/main.55a7d57b.chunk.css.map": "/covid19-statistics-project/static/css/main.55a7d57b.chunk.css.map",
-    "static/js/2.d2e0528c.chunk.js.LICENSE.txt": "/covid19-statistics-project/static/js/2.d2e0528c.chunk.js.LICENSE.txt"
+    "main.css": "/covid19-statistic-project/static/css/main.55a7d57b.chunk.css",
+    "main.js": "/covid19-statistic-project/static/js/main.cc8276e9.chunk.js",
+    "main.js.map": "/covid19-statistic-project/static/js/main.cc8276e9.chunk.js.map",
+    "runtime-main.js": "/covid19-statistic-project/static/js/runtime-main.f1161059.js",
+    "runtime-main.js.map": "/covid19-statistic-project/static/js/runtime-main.f1161059.js.map",
+    "static/js/2.8fe30ef1.chunk.js": "/covid19-statistic-project/static/js/2.8fe30ef1.chunk.js",
+    "static/js/2.8fe30ef1.chunk.js.map": "/covid19-statistic-project/static/js/2.8fe30ef1.chunk.js.map",
+    "index.html": "/covid19-statistic-project/index.html",
+    "precache-manifest.f8ffa502ca12b172d4d8f245c14199bc.js": "/covid19-statistic-project/precache-manifest.f8ffa502ca12b172d4d8f245c14199bc.js",
+    "service-worker.js": "/covid19-statistic-project/service-worker.js",
+    "static/css/main.55a7d57b.chunk.css.map": "/covid19-statistic-project/static/css/main.55a7d57b.chunk.css.map",
+    "static/js/2.8fe30ef1.chunk.js.LICENSE.txt": "/covid19-statistic-project/static/js/2.8fe30ef1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a73e5d3.js",
-    "static/js/2.d2e0528c.chunk.js",
+    "static/js/runtime-main.f1161059.js",
+    "static/js/2.8fe30ef1.chunk.js",
     "static/css/main.55a7d57b.chunk.css",
     "static/js/main.cc8276e9.chunk.js"
   ]
