@@ -1,4 +1,4 @@
-# Сovid19-statistics
+# Сovid19 Statistics
 Application pour consulter de statistique de cas de Covid-19
 
 ![Deployment](https://github.com/npankov/covid19-statistic-project/workflows/Deployment/badge.svg)
