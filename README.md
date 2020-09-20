@@ -9,7 +9,7 @@ Application pour consulter de statistique de cas de Covid-19
 
 ### Ressources
 - ES6
-- [React](https://ru.reactjs.org/) / (Hooks)
+- [React](https://reactjs.org/) / (Hooks)
 - [Axios](https://github.com/axios/axios)
 - [Material-UI](https://material-ui.com/)
 - [Chart.js](https://www.chartjs.org/)
