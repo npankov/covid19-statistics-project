@@ -3,7 +3,7 @@ Application pour consulter de statistique de cas de Covid-19
 
 ![Deployment](https://github.com/npankov/covid19-statistic-project/workflows/Deployment/badge.svg)
 
-### Regardez en ligne [ici](https://npankov.github.io/covid19-statistic-project/)
+### Regardez en ligne [ici](https://npankov.github.io/covid19-statistics-project/)
 
 > Le projet en cours de développement
 
