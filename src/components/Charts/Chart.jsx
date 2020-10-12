@@ -1,19 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Bar } from 'react-chartjs-2';
 // import { getDailyData } from '../../api';
 import styles from './Chart.module.css';
 
 const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
-  const [dailyData, setDailyData] = useState([]);
+// temporairement dysfonctionnement api/daily
+// const [dailyData, setDailyData] = useState([]);
+  //
+  // useEffect(() => {
+  //   const receiveDailyData = async () => {
+  //     setDailyData(await getDailyData());
+  //   };
+  //
+  //   receiveDailyData();
+  // }, []);
 
-  useEffect(() => {
-    const receiveDailyData = async () => {
-      setDailyData(await getDailyData());
-    };
-
-    receiveDailyData();
-  }, []);
-  //temporairement dysfonctionnement api/daily
   // const lineChart = (
   //   dailyData.length
   //     ? (
