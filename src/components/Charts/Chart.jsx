@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Line, Bar } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import { getDailyData } from '../../api';
 import styles from './Chart.module.css';
 
@@ -13,7 +13,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
     receiveDailyData();
   }, []);
-  //temp. dysfonctionnement api/daily
+  //temporairement dysfonctionnement api/daily
   // const lineChart = (
   //   dailyData.length
   //     ? (
