@@ -1,14 +1,13 @@
 import React from 'react';
 import { Cards, Chart, CountryPicker, Header } from './components';
-import styles from './App.module.css';
 import { getData } from './api';
+import styles from './App.module.css';
 
 class App extends React.Component {
     state = {
       data: {},
       country: '',
     };
-
 
   async componentDidMount() {
     const receivedData = await getData();
