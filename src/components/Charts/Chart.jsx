@@ -13,32 +13,32 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
     receiveDailyData();
   }, []);
-
-  const lineChart = (
-    dailyData.length
-      ? (
-        <Line
-          data={{
-            labels: dailyData.map(({ date }) => date),
-            datasets: [{
-              data: dailyData.map(({ confirmed }) => confirmed),
-              label: 'Confirmés',
-              borderColor: 'rgba(255, 0, 0)',
-              fill: true,
-            },
-            {
-              data: dailyData.map(({ deaths }) => deaths),
-              label: 'Décès',
-              borderColor: 'rgba(87, 68, 50)',
-              fill: true,
-            }],
-          }}
-          options={{
-            title: { display: true, position: 'bottom', text: 'Le graphique de tous les cas dans le monde' },
-          }}
-        />
-      ) : null
-  );
+  //temp. dysfonctionnement api/daily
+  // const lineChart = (
+  //   dailyData.length
+  //     ? (
+  //       <Line
+  //         data={{
+  //           labels: dailyData.map(({ date }) => date),
+  //           datasets: [{
+  //             data: dailyData.map(({ confirmed }) => confirmed),
+  //             label: 'Confirmés',
+  //             borderColor: 'rgba(255, 0, 0)',
+  //             fill: true,
+  //           },
+  //           {
+  //             data: dailyData.map(({ deaths }) => deaths),
+  //             label: 'Décès',
+  //             borderColor: 'rgba(87, 68, 50)',
+  //             fill: true,
+  //           }],
+  //         }}
+  //         options={{
+  //           title: { display: true, position: 'bottom', text: 'Le graphique de tous les cas dans le monde' },
+  //         }}
+  //       />
+  //     ) : null
+  // );
 
   const barChart = (
     confirmed
@@ -62,7 +62,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
   return (
     <div className={styles.container}>
-      {country ? barChart : lineChart}
+      {barChart}
     </div>
   );
 };
