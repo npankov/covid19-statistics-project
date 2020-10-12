@@ -4,13 +4,11 @@ import styles from './App.module.css';
 import { getData } from './api';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+    state = {
       data: {},
       country: '',
     };
-  }
+
 
   async componentDidMount() {
     const receivedData = await getData();
