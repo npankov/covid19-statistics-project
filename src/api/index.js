@@ -15,20 +15,19 @@ export const getData = async (country) => {
   }
 };
 
-// temporairement dysfonctionnement api/daily
-// export const getDailyData = async () => {
-//   try {
-//     const { data } = await axios.get(`${url}/daily`);
-//     const newData = data.map((el) => ({
-//       confirmed: el.confirmed.total,
-//       deaths: el.deaths.total,
-//       date: el.reportDate,
-//     }));
-//     return newData;
-//   } catch (error) {
-//     return error;
-//   }
-// };
+export const getDailyData = async () => {
+  try {
+    const { data } = await axios.get(`${url}/daily`);
+    const newData = data.map((el) => ({
+      confirmed: el.confirmed.total,
+      deaths: el.deaths.total,
+      date: el.reportDate,
+    }));
+    return newData;
+  } catch (error) {
+    return error;
+  }
+};
 
 export const getCountries = async () => {
   try {
